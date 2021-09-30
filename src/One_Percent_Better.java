@@ -8,10 +8,6 @@ public class One_Percent_Better {
      */
 
     public static void main (String[] args) {
-//        // checking the args arguments
-//        for (int i = 0; i < args.length; i++) {
-//            System.out.println(args[i]);
-//        }
 
         // where will the input come from? 1 for the String []args, 0 for Scanner/user input
         int control = Integer.parseInt(args[0]);
@@ -65,12 +61,6 @@ public class One_Percent_Better {
      * @param nums the same args from main(), to be used for calculation
      */
     public static void comm(String[] nums) {
-//        System.out.println("entered config method");
-//
-//        // checking the nums arguments
-//        for (int i = 0; i < nums.length; i++) {
-//            System.out.println(nums[i]);
-//        }
 
         // parse input nums
         double start = Double.parseDouble(nums[1]);
